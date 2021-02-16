@@ -1,0 +1,28 @@
+{
+  "name": "legendary-goggles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint-init": "eslint --init",
+    "eslint": "eslint .",
+    "eslint-fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogersop/legendary-goggles.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rogersop/legendary-goggles/issues"
+  },
+  "homepage": "https://github.com/rogersop/legendary-goggles#readme"
+}
