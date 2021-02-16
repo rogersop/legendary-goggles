@@ -6,5 +6,6 @@ class LegendaryGoggles {
   cleanGoggles() {
     console.log('Wipe, wipe...');
     this.visibility++;
+    this.condition = 10;
   }
 }
