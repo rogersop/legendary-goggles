@@ -6,7 +6,13 @@
   "devDependencies": {
     "eslint": "^7.20.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.22.1"
+    "eslint-plugin-import": "^2.22.1",
+    "husky": "^5.0.9"
+  },
+  "husky": {
+    "hooks": {
+      "precommit": "npm run eslint-fix"
+    }
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
